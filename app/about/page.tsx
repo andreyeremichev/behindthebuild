@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About — Behind the Build",
+  description:
+    "Behind the Build is a public decision log documenting real product and promotion choices as they are made, before outcomes are known. Entries are recorded at the time of decision, without hindsight, and are intended for orientation rather than advice.",
+};
+
 export default function AboutPage() {
   return (
     <>
@@ -43,6 +51,16 @@ export default function AboutPage() {
         This log exists to stay oriented while shouting into the void —
         together with others who are doing the same.
       </p>
+
+      {/* Human-facing, quiet classification (small text, near the bottom) */}
+      <p style={{ fontSize: "0.9em", opacity: 0.7, marginTop: "2rem" }}>
+        This is a record of decisions made while not knowing how things will turn out.
+        Entries are written at the moment choices are made, without hindsight or conclusions.
+        Nothing here is meant to instruct or persuade — it exists to leave a trace of thinking
+        inside uncertainty.
+      </p>
+
+      
     </>
   );
 }
