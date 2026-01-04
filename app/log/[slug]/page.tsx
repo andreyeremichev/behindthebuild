@@ -322,6 +322,469 @@ const CONTENT: Record<string, { body: React.ReactNode }> = {
     </>
   ),
 },
+"locking-a-leverage-first-operating-rule": {
+  body: (
+    <>
+      <div className="kicker">Decision log</div>
+
+      <h1>Locking a leverage-first operating rule</h1>
+
+      <p className="meta">
+        Mental model used: <strong>Inversion</strong> ·{" "}
+        <strong>{formatDate("2026-01-04")}</strong>
+      </p>
+
+      <hr />
+
+      <h2>Context</h2>
+
+      <p>
+        With multiple projects live at different stages, decision-making began
+        to blur. The problem was not a lack of ideas, but slow role creep:
+        projects quietly trying to do more than they were meant to.
+      </p>
+
+      <p>
+        Left unchecked, this creates diffusion of effort, expectation debt, and
+        time spent defending decisions emotionally instead of structurally.
+      </p>
+
+      <p>
+        I needed a way to reduce optionality, not increase it.
+      </p>
+
+      <h2>Inversion</h2>
+
+      <p>
+        If I wanted to guarantee long-term stagnation, I would let every project
+        pursue multiple vague goals at once — learning, identity, ethics,
+        expression — without any hard constraint on what actually compounds.
+      </p>
+
+      <p>
+        Inversion makes the failure mode obvious: projects that do not
+        accumulate real leverage slowly turn into unpaid work defended by
+        narratives.
+      </p>
+
+      <h2>The rule</h2>
+
+      <p>
+        I am locking a single global operating rule:
+      </p>
+
+      <p>
+        <strong>
+          Each project must accumulate a form of leverage that can plausibly
+          convert into freedom (money without daily labor). Anything that does
+          not strengthen that leverage is rejected by default.
+        </strong>
+      </p>
+
+      <p>
+        Leverage is not posture, ethics, learning, or identity. Leverage is
+        something that can compound and later cash out.
+      </p>
+
+      <h2>The only valid leverage types</h2>
+
+      <p>
+        After inversion, only four leverage types survive scrutiny:
+      </p>
+
+      <h3>1. Artifacts</h3>
+
+      <ul>
+        <li><span className="liLabel">Shareable</span></li>
+        <li><span className="liLabel">Ownable</span></li>
+        <li><span className="liLabel">Travel without you</span></li>
+        <li>
+          <span className="liLabel">Monetizable later</span>{" "}
+          (downloads, embeds, ads, licensing)
+        </li>
+      </ul>
+
+      <p>
+        Examples include postcards, generated visuals, audio or video outputs,
+        puzzles, and minimal interactive toys.
+      </p>
+
+      <h3>2. Traffic</h3>
+
+      <ul>
+        <li><span className="liLabel">Repeatable</span></li>
+        <li>
+          <span className="liLabel">Searchable or rediscoverable</span>
+        </li>
+        <li>
+          <span className="liLabel">Monetizable via ads or redirection</span>
+        </li>
+      </ul>
+
+      <p>
+        One-off virality alone is not leverage. Traffic counts only when it
+        accumulates or returns.
+      </p>
+
+      <h3>3. Niche gravity</h3>
+
+      <p>
+        A concentrated group of people who come for a specific reason and
+        recognize the project as “for them”.
+      </p>
+
+      <p>
+        This is not broad traffic, not general trust, and not authority. It is
+        sharp positioning with vitality inside a narrow space.
+      </p>
+
+      <h3>4. Trust</h3>
+
+      <ul>
+        <li><span className="liLabel">Slow</span></li>
+        <li><span className="liLabel">Fragile</span></li>
+        <li><span className="liLabel">Transferable across projects</span></li>
+        <li>
+          <span className="liLabel">
+            Reduces friction for future monetization
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        Trust is leverage only when explicitly protected.
+      </p>
+
+      <h2>Locked leverage assignments</h2>
+
+      <p>
+        Each project is allowed one primary leverage. Secondary effects may
+        exist, but are not optimized for.
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">PianoTrainer</span> → Trust
+          <span className="meta"> (secondary: evergreen traffic)</span>
+        </li>
+        <li>
+          <span className="liLabel">MusicalToys</span> → Artifacts
+          <span className="meta"> (secondary: traffic via sharing)</span>
+        </li>
+        <li>
+          <span className="liLabel">EmotionalChords</span> → Niche gravity
+          <span className="meta"> (secondary: trust inside the niche)</span>
+        </li>
+        <li>
+          <span className="liLabel">ViralToys</span> → Artifacts
+          <span className="meta"> (secondary: traffic when earned)</span>
+        </li>
+        <li>
+          <span className="liLabel">Behind the Build</span> → Trust
+          <span className="meta">
+            {" "}
+            (secondary: narrative coherence across projects)
+          </span>
+        </li>
+      </ul>
+
+      <h2>Clarification: ViralToys</h2>
+
+      <p>
+        ViralToys builds viral toys knowing most will fail, and turns the
+        visible record of those attempts — including their deaths — into a
+        shareable artifact itself.
+      </p>
+
+      <p>
+        Individual toys are disposable inputs. The kill feed and lifecycle
+        system are part of the artifact.
+      </p>
+
+      <p>
+        Virality is not guaranteed. Neither toys nor the kill feed are rescued
+        to force outcomes.
+      </p>
+
+      <h2>Cross-project constraints (not leverage)</h2>
+
+      <p>
+        Some principles apply across all projects but are not leverage
+        themselves:
+      </p>
+
+      <ul>
+        <li><span className="liLabel">restraint</span></li>
+        <li><span className="liLabel">honesty</span></li>
+        <li><span className="liLabel">signal purity</span></li>
+        <li><span className="liLabel">refusal to fake success</span></li>
+      </ul>
+
+      <p>
+        These are governance constraints. They protect leverage; they are not
+        leverage.
+      </p>
+
+      <h2>Enforcement rule</h2>
+
+      <p>
+        Any action must name which leverage it strengthens, and for which
+        project.
+      </p>
+
+      <p>
+        If the leverage cannot be named clearly, the action is rejected.
+      </p>
+
+      <h2>Kill / decay rule</h2>
+
+      <p>
+        If a project stops accumulating its assigned leverage, it enters decay
+        mode:
+      </p>
+
+      <ul>
+        <li><span className="liLabel">no new features</span></li>
+        <li><span className="liLabel">no expansion</span></li>
+        <li><span className="liLabel">no additional attention</span></li>
+      </ul>
+
+      <p>
+        Decay is not failure. It is capital preservation.
+      </p>
+
+      <h2>Final invariant</h2>
+
+      <p>
+        You are not building products. You are accumulating leverage under
+        uncertainty.
+      </p>
+
+      <p>
+        Projects are vehicles. Leverage is the asset.
+      </p>
+
+      <hr />
+
+      <p className="meta">
+        Log closure: leverage is now the primary decision boundary.
+      </p>
+    </>
+  ),
+},
+"stress-testing-viraltoys-success-and-non-virality": {
+  body: (
+    <>
+      <div className="kicker">Decision log</div>
+
+      <h1>Stress testing ViralToys under success and silence</h1>
+
+      <p className="meta">
+        Mental model used: <strong>Inversion</strong> ·{" "}
+        <strong>{formatDate("2026-01-04")}</strong>
+      </p>
+
+      <hr />
+
+      <h2>Context</h2>
+
+      <p>
+        ViralToys is built around an unusual commitment: the public surface is a
+        lifecycle system, not a winner showcase. Most attempts will die. That is
+        expected. The kill feed is not an embarrassment — it is the artifact.
+      </p>
+
+      <p>
+        The question that matters is not whether the system works on paper, but
+        whether it survives reality.
+      </p>
+
+      <h2>Inversion</h2>
+
+      <p>
+        If I wanted to quietly destroy this system, I would do it in one of two
+        ways:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">Under success:</span> let winners take over
+          the front door, soften kill discipline, and retcon past deaths.
+        </li>
+        <li>
+          <span className="liLabel">Under silence:</span> start adding meaning
+          to compensate for lack of signal — commentary, lessons, excuses,
+          theory.
+        </li>
+      </ul>
+
+      <p>
+        So the real stress test is symmetric:
+        <span className="liLabel"> can the system survive success, and can it survive none?</span>
+      </p>
+
+      <hr />
+
+      <h2>Stress test A: what if three toys go viral?</h2>
+
+      <p>
+        “Three toys go viral” is rarely a clean victory. It usually means
+        fragmented success: different platforms, different audiences, different
+        timing.
+      </p>
+
+      <p>Where systems usually break:</p>
+
+      <ul>
+        <li>
+          <span className="liLabel">Winner capture:</span> the project becomes
+          “Toy A (and some other stuff)”.
+        </li>
+        <li>
+          <span className="liLabel">Retconning:</span> kills start to feel
+          uncomfortable and get revisited emotionally.
+        </li>
+        <li>
+          <span className="liLabel">Status inflation:</span> new vague labels
+          appear (“promising”, “strong”, “almost”).
+        </li>
+        <li>
+          <span className="liLabel">Optimization pressure:</span> the system
+          becomes a growth machine; the original thesis dissolves.
+        </li>
+      </ul>
+
+      <p>
+        Under the locked ViralToys model, success is not allowed to take over the
+        front door. The homepage remains the failure surface. Viral toys can
+        exist, but they do not become the default narrative.
+      </p>
+
+      <p>
+        This neutralizes winner capture. The kill feed stays what it is: a
+        reality surface where attempts live or die — not a myth about “failures
+        that led to success”.
+      </p>
+
+      <p>
+        The single pressure point that remains is narrative temptation: when
+        multiple things succeed, a story emerges — “they figured something out.”
+        The danger is not what happens, but what you are expected to claim.
+      </p>
+
+      <h3>Guardrail for success</h3>
+
+      <p>
+        <span className="liLabel">Lock this sentence:</span> Viral outcomes do
+        not imply understanding.
+      </p>
+
+      <p>
+        This blocks premature theory, prevents “we cracked it” narratives, and
+        lets contradictory successes coexist without collapsing the system into a
+        playbook.
+      </p>
+
+      <hr />
+
+      <h2>Stress test B: what if nothing ever goes viral?</h2>
+
+      <p>
+        Assume permanent non-virality. No breakout toys. No viral kill feed.
+        Traffic stays modest and inconsistent.
+      </p>
+
+      <p>
+        Under this model, the output is not virality. The output is:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">a growing archive of attempts</span>
+        </li>
+        <li>
+          <span className="liLabel">a visible lifecycle system</span>
+        </li>
+        <li>
+          <span className="liLabel">a rigorously enforced failure surface</span>
+        </li>
+        <li>
+          <span className="liLabel">
+            a meta-artifact that remains true even when outcomes are brutal
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        Most projects break here psychologically: criteria soften, lives extend,
+        excuses accumulate, and failure is reframed as “research” to avoid
+        discomfort.
+      </p>
+
+      <p>
+        The real risk is not failure — it’s meaning drift. When nothing happens,
+        the temptation is to add commentary to fill the silence.
+      </p>
+
+      <h3>Guardrail for silence</h3>
+
+      <p>
+        <span className="liLabel">Lock this sentence:</span> We do not add
+        meaning when reality provides none.
+      </p>
+
+      <p>
+        Concretely: no reflective essays to justify non-virality, no
+        theory-building to aestheticize failure, no meta-commentary to fill
+        quiet. The site remains outcomes and statuses.
+      </p>
+
+      <h3>Final symmetry</h3>
+
+      <p>
+        The inverse twin of the success guardrail is:
+      </p>
+
+      <p>
+        <span className="liLabel">Lock this sentence:</span> We do not owe the
+        project a success.
+      </p>
+
+      <hr />
+
+      <h2>Decision</h2>
+
+      <p>
+        The ViralToys model survives both stress tests if — and only if — it
+        explicitly refuses the two most common corruptions:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">Under success:</span> do not claim
+          understanding.
+        </li>
+        <li>
+          <span className="liLabel">Under silence:</span> do not manufacture
+          meaning.
+        </li>
+      </ul>
+
+      <p>
+        With these two guardrails locked, the system can survive not just three
+        viral toys — but thirty — and it can also survive permanent non-virality
+        without rotting into narrative.
+      </p>
+
+      <hr />
+
+      <p className="meta">
+        Log closure: the system must remain coherent under both outcomes —
+        success and none.
+      </p>
+    </>
+  ),
+},
 };
 
 

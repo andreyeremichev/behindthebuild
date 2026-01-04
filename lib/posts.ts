@@ -32,6 +32,18 @@ export const POSTS: Post[] = [
   title: "What should happen to an existing social account after a product split?",
   dateISO: "2025-12-29",
   model: "Inversion",
+},
+{
+  slug: "locking-a-leverage-first-operating-rule",
+  title: "Locking a leverage-first operating rule",
+  dateISO: "2026-01-04",
+  model: "Inversion",
+},
+{
+  slug: "stress-testing-viraltoys-success-and-non-virality",
+  title: "Stress testing ViralToys under success and silence.",
+  dateISO: "2026-01-04",
+  model: "Inversion",
 }
 ];
 
