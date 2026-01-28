@@ -785,6 +785,326 @@ const CONTENT: Record<string, { body: React.ReactNode }> = {
     </>
   ),
 },
+"using-inversion-to-stop-killing-everything": {
+  body: (
+    <>
+      <div className="kicker">Decision log</div>
+
+      <h1>Using inversion to stop killing everything by accident</h1>
+
+      <p className="meta">
+        Mental model used: <strong>Inversion</strong> ·{" "}
+        <strong>{formatDate("2026-01-28")}</strong>
+      </p>
+
+      <hr />
+
+      <h2>Context</h2>
+
+      <p>
+        I’ve been building multiple projects in parallel, all under a single
+        operating rule:
+      </p>
+
+      <p>
+        <strong>
+          Each project must accumulate leverage that can plausibly convert into
+          freedom (money without daily labor).
+        </strong>
+      </p>
+
+      <p>
+        Leverage here means something that keeps working without my daily
+        involvement:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">artifacts</span> people can use or buy
+        </li>
+        <li>
+          <span className="liLabel">traffic</span> that returns
+        </li>
+        <li>
+          <span className="liLabel">niche gravity</span>
+        </li>
+        <li>
+          <span className="liLabel">trust</span> that reduces friction later
+        </li>
+      </ul>
+
+      <p>
+        Despite this, I kept running into the same thought:
+      </p>
+
+      <p>
+        <em>If people don’t share what I build, why would anyone buy it?</em>
+      </p>
+
+      <p>
+        That question felt reasonable — and it was slowly poisoning every
+        project.
+      </p>
+
+      <h2>Inversion</h2>
+
+      <p>
+        Instead of asking:
+      </p>
+
+      <p>
+        <em>How do I make these projects succeed?</em>
+      </p>
+
+      <p>
+        I inverted the problem:
+      </p>
+
+      <p>
+        <em>
+          How would I reliably kill all projects and any chance of freedom if I
+          continued like this?
+        </em>
+      </p>
+
+      <p>
+        The answer was clear.
+      </p>
+
+      <p>
+        I would do it by:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">
+            evaluating everything with the same signal
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            treating social sharing as universal proof of value
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            waiting for traffic before building anything sellable
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            assuming lack of virality means lack of usefulness
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        This doesn’t fail loudly. It fails quietly, by misclassification.
+      </p>
+
+      <h2>The failure mode</h2>
+
+      <p>
+        Inversion revealed a precise pattern:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">I build something meant for private use</span>
+        </li>
+        <li>
+          <span className="liLabel">I judge it by public sharing</span>
+        </li>
+        <li>
+          <span className="liLabel">it doesn’t spread</span>
+        </li>
+        <li>
+          <span className="liLabel">I conclude it has no value</span>
+        </li>
+        <li>
+          <span className="liLabel">
+            I abandon it before it can become leverage
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        If I keep doing this, the outcome is predictable:
+      </p>
+
+      <p>
+        <strong>
+          I will systematically discard the very things most likely to create
+          freedom.
+        </strong>
+      </p>
+
+      <p>
+        That is how everything dies.
+      </p>
+
+      <h2>The correction</h2>
+
+      <p>
+        The leverage rule itself was not wrong.
+      </p>
+
+      <p>
+        The mistake was how I was testing leverage.
+      </p>
+
+      <p>
+        I was using one validation mode for everything.
+      </p>
+
+      <p>
+        That mode was:
+      </p>
+
+      <ul>
+        <li><span className="liLabel">sharing</span></li>
+        <li><span className="liLabel">virality</span></li>
+        <li><span className="liLabel">traffic</span></li>
+      </ul>
+
+      <p>
+        But different kinds of leverage prove their value in different ways.
+      </p>
+
+      <p>
+        <strong>
+          Some things are meant to be shared. Some things are meant to be bought.
+          Using the wrong test makes good work look like failure.
+        </strong>
+      </p>
+
+      <h2>Two modes</h2>
+
+      <p>
+        From here on, I am explicitly separating two modes:
+      </p>
+
+      <h3>Mode 1 — Share mode</h3>
+
+      <ul>
+        <li><span className="liLabel">free</span></li>
+        <li><span className="liLabel">exploratory</span></li>
+        <li><span className="liLabel">ambiguous</span></li>
+        <li>
+          <span className="liLabel">
+            validated by sharing or traffic
+          </span>
+        </li>
+      </ul>
+
+      <h3>Mode 2 — Buy mode</h3>
+
+      <ul>
+        <li><span className="liLabel">narrow</span></li>
+        <li><span className="liLabel">finished</span></li>
+        <li><span className="liLabel">intentional</span></li>
+        <li>
+          <span className="liLabel">
+            validated by quiet payment
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        Both modes can create leverage. They simply use different signals.
+      </p>
+
+      <h2>How this fits the leverage rule</h2>
+
+      <p>
+        Nothing about the global leverage rule changes.
+      </p>
+
+      <p>
+        What changes is how feedback is interpreted:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">
+            artifacts do not need to be socially shareable to be leverage
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            niche gravity is not proven by virality
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            trust is often built by restraint, not exposure
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            traffic is one path to freedom, not the only one
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        The leverage types stay the same. The validation signals do not.
+      </p>
+
+      <h2>What this decision closes</h2>
+
+      <ul>
+        <li>
+          <span className="liLabel">
+            waiting for traffic before building sellable objects
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            treating virality as a prerequisite for value
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            assuming ads are the only monetization path
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            discarding private-use work because it doesn’t perform publicly
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        Most importantly, it closes the habit of killing projects for failing
+        the wrong test.
+      </p>
+
+      <h2>Uncertainty</h2>
+
+      <p>
+        This does not guarantee income.
+      </p>
+
+      <p>
+        It only guarantees that I stop using a validation method that would
+        reliably destroy any chance of freedom over time.
+      </p>
+
+      <p>
+        This entry exists so that future decisions can reference a closed
+        correction instead of reopening the same mistake.
+      </p>
+
+      <hr />
+
+      <p className="meta">
+        Log closure: validation is now matched to leverage.
+      </p>
+    </>
+  ),
+},
 };
 
 
@@ -822,4 +1142,5 @@ const nextPost = idx < POSTS.length - 1 ? POSTS[idx + 1] : null; // older
 <div className="footer">Decision logged. No action until conditions change.</div>
     </>
   );
-}
+};
+

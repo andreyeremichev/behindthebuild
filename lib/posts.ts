@@ -44,6 +44,12 @@ export const POSTS: Post[] = [
   title: "Stress testing ViralToys under success and silence.",
   dateISO: "2026-01-04",
   model: "Inversion",
+},
+{
+  slug: "using-inversion-to-stop-killing-everything",
+  title: "Using inversion to stop killing everything by accident",
+  dateISO: "2026-01-28",
+  model: "Inversion",
 }
 ];
 
