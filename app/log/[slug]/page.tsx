@@ -1105,6 +1105,215 @@ const CONTENT: Record<string, { body: React.ReactNode }> = {
     </>
   ),
 },
+"closing-current-cycle-and-repackaging-effort": {
+  body: (
+    <>
+      <div className="kicker">Decision log</div>
+
+      <h1>Closing the current cycle and repackaging the effort</h1>
+
+      <p className="meta">
+        Mental model used: <strong>Inversion</strong> ·{" "}
+        <strong>{formatDate("2026-01-06")}</strong>
+      </p>
+
+      <hr />
+
+      <h2>Context</h2>
+
+      <p>
+        Several projects have been live for months. None of them have gained
+        meaningful traffic. Attempts to distribute through Instagram and YouTube
+        have not changed that.
+      </p>
+
+      <p>
+        The situation is not ambiguous anymore. The current approach is not
+        producing signal.
+      </p>
+
+      <p>
+        At the same time, the work itself is not empty. There is structure,
+        coherence, and accumulated material — especially around EmotionalChords.
+      </p>
+
+      <p>
+        The question is no longer how to push these projects forward, but how to
+        avoid losing both time and accumulated effort.
+      </p>
+
+      <h2>Inversion</h2>
+
+      <p>
+        If I wanted to guarantee long-term stagnation, I would continue doing the
+        following:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">
+            keep trying to “fix” distribution without new evidence
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            treat lack of traffic as a temporary problem indefinitely
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            keep building on top of projects that have not proven leverage
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            ignore the accumulated work because it did not perform
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        This path does not fail dramatically. It fails by extending a low-signal
+        state indefinitely.
+      </p>
+
+      <h2>The failure mode</h2>
+
+      <p>
+        The risk is not that the projects are “bad”. The risk is continuing to
+        invest in a system that does not convert effort into leverage.
+      </p>
+
+      <p>
+        If nothing changes, the likely outcome is slow exhaustion:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">more work</span> without signal
+        </li>
+        <li>
+          <span className="liLabel">more adjustments</span> without direction
+        </li>
+        <li>
+          <span className="liLabel">less willingness</span> to start again
+        </li>
+      </ul>
+
+      <p>
+        That is not failure of ideas. It is failure to stop.
+      </p>
+
+      <h2>The decision</h2>
+
+      <p>
+        I am closing the current build-distribute loop and switching to a
+        repackaging phase.
+      </p>
+
+      <p>
+        Instead of pushing the existing sites further, I am extracting their
+        strongest parts into artifacts.
+      </p>
+
+      <p>
+        The EmotionalChords work has been repackaged into two books:
+      </p>
+
+      <ul>
+        <li>
+          <a href="https://www.amazon.com/dp/B0GXRPN46Y" target="_blank">
+            Book 1
+          </a>
+        </li>
+        <li>
+          <a href="https://www.amazon.com/dp/B0GXYS5LFZ" target="_blank">
+            Book 2
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        This converts existing effort into artifacts that can exist independently
+        of traffic or algorithms.
+      </p>
+
+      <h2>What this closes</h2>
+
+      <ul>
+        <li>
+          <span className="liLabel">
+            continuing to iterate on low-signal distribution channels
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            expecting delayed traction without structural change
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            treating unfinished projects as obligations
+          </span>
+        </li>
+      </ul>
+
+      <h2>What this opens</h2>
+
+      <p>
+        This decision frees attention for new work.
+      </p>
+
+      <p>
+        The next projects are not defined yet. The only constraints are:
+      </p>
+
+      <ul>
+        <li>
+          <span className="liLabel">digital-first</span>
+        </li>
+        <li>
+          <span className="liLabel">
+            aligned with the leverage rule
+          </span>
+        </li>
+        <li>
+          <span className="liLabel">
+            oriented toward financial freedom
+          </span>
+        </li>
+      </ul>
+
+      <p>
+        Not knowing the next direction is acceptable. Continuing the current one
+        without signal is not.
+      </p>
+
+      <h2>Uncertainty</h2>
+
+      <p>
+        This does not guarantee that the books will succeed.
+      </p>
+
+      <p>
+        It only guarantees that existing work is not discarded, and that new
+        effort is not trapped in the same loop.
+      </p>
+
+      <p>
+        This entry exists to mark the end of one cycle, and to prevent returning
+        to it without new evidence.
+      </p>
+
+      <hr />
+
+      <p className="meta">
+        Log closure: stop extending low-signal systems; convert effort into
+        artifacts and move forward.
+      </p>
+    </>
+  ),
+},
 };
 
 

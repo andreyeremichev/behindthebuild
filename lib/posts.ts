@@ -50,6 +50,12 @@ export const POSTS: Post[] = [
   title: "Using inversion to stop killing everything by accident",
   dateISO: "2026-01-28",
   model: "Inversion",
+},
+{
+  slug: "closing-current-cycle-and-repackaging-effort",
+  title: "Closing the current cycle and repackaging the effort",
+  dateISO: "2026-04-21",
+  model: "Inversion",
 }
 ];
 
